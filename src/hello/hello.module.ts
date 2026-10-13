@@ -6,7 +6,7 @@ import { HelloService } from './hello.service.js';
   controllers: [HelloController],
   providers: [HelloService],
   imports: [],// import other module if needed
-  exports: [] // export other module if needed
+  exports: [HelloService] // export other module if needed
 }
 )
 export class HelloModule { }
